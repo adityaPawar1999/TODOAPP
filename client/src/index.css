@@ -1,0 +1,82 @@
+body{
+    
+    background-color: #212121;;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.mainContainer{ background: rgba(255, 255, 255, 0.2); /* Adjust the opacity as needed */
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+    padding: 20px;
+}
+.heading{
+    padding-top: 20px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: #00ff66;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.inputdata{
+    border: none;
+    height: 40px;
+    width: 350px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.button{
+    font-weight: 900;
+    color: #212121;
+    height: 45px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: #212121;
+    border: none;
+    color: #fff;
+}
+.button:hover{
+    transition: .7s;
+    background-color: #00ff66;
+}
+.tasks{
+    width: 90%;
+    position: relative;
+    color: #212121;
+    height: 45px;    padding-left: 20px;
+
+    padding-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+.tasks:hover{
+    transition: .7s;
+    background-color: #212121;
+    color: #fff;
+}
+i{
+    font-size: 1.2rem;
+}
+.update{
+    position: absolute;
+    right: 0;
+    padding-right: 20px;
+    cursor: pointer;
+    color: #00ff66;
+}
+.delete{
+    position: absolute;
+    right: 50px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: #ef0a5a;
+}
