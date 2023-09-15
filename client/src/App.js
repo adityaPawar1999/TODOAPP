@@ -45,7 +45,7 @@ const App = () => {
     <>
       <div className='mainContainer text-white'>
         
-      <h1 className='text-center  heading'>DO DAILY </h1><br/>
+      <h1 className='text-center  heading'>DO DAILY : </h1><br/>
       <div>
         <input type='text' className='inputdata' value={input} onChange={(e) => setInput(e.target.value)} />
         <button type='submit' className='button' onClick={updateId ? updateTask : addTask}>{updateId ? "update Task" : "Add Task"}</button>
