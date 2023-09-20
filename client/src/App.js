@@ -13,7 +13,7 @@ const App = () => {
   useEffect(() => {
     axios.get(`${baseURl}/get`)
       .then((res) => {
-        console.log(res.data)
+        console.log("data added")
         setTask(res.data)
       })
       .catch((error) => { console.log(error) })
